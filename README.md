@@ -22,6 +22,7 @@ guidelines for quality content.
 - [Frameworks](#frameworks)
     - [Gatsby](#gatsby)
     - [Next.js](#nextjs)
+    - [Nuxt](#nuxt)
 - [Operating Systems](#operating-systems)
     - [macOS](#macos)
     - [Windows](#windows)
@@ -60,23 +61,62 @@ Search for `telemetry` in the visual settings editor and uncheck all.
 ## Frameworks
 
 ### Gatsby
+
+Run
+
 ```sh
 gatsby telemetry --disable
 ```
 
-or set environment variable `GATSBY_TELEMETRY_DISABLED` to `1`.
+Set environment variable
+
+```
+GATSBY_TELEMETRY_DISABLED=1
+```
 
 [Source](https://www.gatsbyjs.org/docs/telemetry/)
 
 ### Next.js
+
 Run
+
 ```sh
 npx next telemetry disable
 ```
-in project root directory or set environment variable `NEXT_TELEMETRY_DISABLED` 
-to `1`.
+
+in project root directory.
+
+Set environment variable
+
+```sh
+NEXT_TELEMETRY_DISABLED=1
+```
 
 [Source](https://nextjs.org/telemetry/)
+
+### Nuxt
+
+Setting `telemetry: false` in your `nuxt.config`:
+
+```js
+export default {
+  telemetry: false
+}
+```
+
+Set environment variable
+
+```sh
+NUXT_TELEMETRY_DISABLED=1
+```
+
+Run `npx nuxt telemetry disable`
+
+```sh
+npx nuxt telemetry [status|enable|disable] [-g,--global] [dir]
+```
+
+[Source](https://github.com/nuxt/telemetry#opting-out)
 
 ## Operating Systems
 
