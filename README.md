@@ -123,11 +123,10 @@ After you do this, you cannot change the telemetry level in `Privacy > Feedback
 & diagnostics` via the drop-down menu any more.
 
 However, if you are using Windows 10 (Core/Home) or Windows 10 Pro edition, 
-setting `AllowTelemetry` to `0` has not effect. Microsoft mentions in the 
+setting `AllowTelemetry` to `0` has no effect. Microsoft mentions in the 
 description of the "Allow Telemetry" option in Group Policy Editor that setting 
 the option to `0 - Security` on Windows 10 Home or Pro editions is equivalent 
-to setting it to `1 - Basic`. This setting only works in Windows 10 Enterprise 
-(including LTSB), Education, IoT and Server editions.
+to setting it to `1 - Basic`.
 
 > This policy setting determines the amount of diagnostic and usage data 
 > reported to Microsoft. A value of 0 will send minimal data to Microsoft. This 
