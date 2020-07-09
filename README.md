@@ -34,9 +34,10 @@ guidelines for quality content.
 
 ## General
 
-- [Pi-hole](https://pi-hole.net) - Pi-hole is a DNS-level blocker of trackers,
-  telemetry and other nuisances, is very customizable and comes with nice
-  statistics.
+- [Little Snitch](https://www.obdev.at/products/littlesnitch/index.html) - 
+  Application-level firewall for macOS.
+- [Pi-hole](https://pi-hole.net) - DNS-level blocker of trackers, telemetry and 
+  other nuisances, very customizable and comes with nice statistics.
 
 ## Applications
 
