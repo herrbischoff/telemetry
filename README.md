@@ -183,6 +183,20 @@ to setting it to `1 - Basic`.
 
 ## Package Managers
 
+### Homebrew
+
+Run
+
+```sh
+brew analytics off
+```
+
+Set environment variable
+
+```sh
+export HOMEBREW_NO_ANALYTICS=1
+```
+
 ### Pkg.jl
 
 Edit `~/.julia/servers/pkg.julialang.org/telemetry.toml` and add
